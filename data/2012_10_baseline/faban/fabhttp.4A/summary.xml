@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../xslt/summary_report.xsl"?>
+<benchResults>
+    <benchSummary name="RandomFile" version="0.1">
+        <runId>fabhttp.4A</runId>
+        <startTime>Mon Oct 29 20:42:21 PDT 2012</startTime>
+        <endTime>Mon Oct 29 21:13:51 PDT 2012</endTime>
+        <metric unit="req/s">2331.216</metric>
+        <passed>true</passed>
+    </benchSummary>
+    <driverSummary name="RandomFile">
+        <metric unit="req/s">2331.216</metric>
+        <startTime>Mon Oct 29 20:42:21 PDT 2012</startTime>
+        <endTime>Mon Oct 29 21:13:51 PDT 2012</endTime>
+        <totalOps unit="requests">4196188</totalOps>
+        <users>1</users>
+        <rtXtps>1.0000</rtXtps>
+        <passed>true</passed>
+        <mix allowedDeviation="0.0100">
+            <operation name="GetRandomFile">
+                <successes>4196188</successes>
+                <failures>0</failures>
+                <mix>1.0000</mix>
+                <requiredMix>1.0000</requiredMix>
+                <passed>true</passed>
+            </operation>
+        </mix>
+        <responseTimes unit="milliseconds">
+            <operation name="GetRandomFile" r90th="10.000">
+                <avg>0.397</avg>
+                <max>160.151</max>
+                <sd>0.129</sd>
+                <p90th>0.500</p90th>
+                <passed>true</passed>
+                <p99th>0.800</p99th>
+            </operation>
+        </responseTimes>
+        <delayTimes>
+            <operation name="GetRandomFile" type="thinkTime">
+                <targetedAvg>0.000</targetedAvg>
+                <actualAvg>0.000</actualAvg>
+                <min>0.000</min>
+                <max>0.041</max>
+                <passed>true</passed>
+            </operation>
+        </delayTimes>
+        <customStats name="Miscellaneous Statistics">
+            <stat>
+                <description>Average Content Size for GetRandomFile</description>
+                <result>8192.00</result>
+            </stat>
+        </customStats>
+    </driverSummary>
+</benchResults>

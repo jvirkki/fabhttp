@@ -1,0 +1,7 @@
+
+The randomfiles faban driver is a simple web server test which
+requests a random file.  The files are expected to be named
+numerically from 1 to the max configured.
+
+The tarball "content_files_8k.tar.gz" contains the set of 1000 files
+of size 8K used for the baseline tests.

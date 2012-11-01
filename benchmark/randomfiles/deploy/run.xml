@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<randomFile>
+
+  <jvmConfig xmlns="http://faban.sunsource.net/ns/fabanharness">
+    <javaHome>/usr/java/jdk1.6.0_29</javaHome>
+    <jvmOptions>-Xmx1024m -Xms64m -XX:+DisableExplicitGC</jvmOptions>
+  </jvmConfig>
+
+  <fa:runConfig definition="com.virkki.fabhttp.RandomFilesDriver"
+                xmlns:fa="http://faban.sunsource.net/ns/faban"
+                xmlns:fh="http://faban.sunsource.net/ns/fabanharness"
+                xmlns="http://faban.sunsource.net/ns/fabandriver">
+    <fh:description>Write the run description here.</fh:description>
+
+    <!-- The hostConfig section is used by the harness to control hosts -->
+    <fa:hostConfig>
+      <fa:host>127.0.0.1</fa:host>
+      <fh:tools></fh:tools>
+    </fa:hostConfig>
+
+    <fa:scale>16</fa:scale>
+
+    <fa:runControl unit="time">
+      <fa:rampUp>300</fa:rampUp>
+      <fa:steadyState>14400</fa:steadyState>
+      <fa:rampDown>30</fa:rampDown>
+
+      <fa:variableLoad>false</fa:variableLoad>
+      <fa:variableLoadFile>/tmp/variation</fa:variableLoadFile>
+
+    </fa:runControl>
+
+    <!-- The driver-specific config.  -->
+    <driverConfig name="RandomFile">
+
+      <properties>
+        <property>
+          <name>secure</name>
+          <value>false</value>
+        </property>
+
+      </properties>
+    </driverConfig>
+  </fa:runConfig>
+
+  <webServer>
+    <fa:hostConfig xmlns="http://faban.sunsource.net/ns/fabanharness"
+                   xmlns:fa="http://faban.sunsource.net/ns/faban">
+      <fa:serverHost>atom</fa:serverHost>
+      <fa:serverPort>80</fa:serverPort>
+      <fa:directory>/fabhttp/randomfiles</fa:directory>
+      <fa:fileCount>1000</fa:fileCount>
+    </fa:hostConfig>
+  </webServer>
+
+</randomFile>

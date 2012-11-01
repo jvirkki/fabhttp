@@ -1,0 +1,87 @@
+fabhttp.6I varnish scale=10
+fabhttp.6H varnish scale=9
+fabhttp.6G varnish scale=8
+fabhttp.6F varnish scale=7
+fabhttp.6E varnish scale=6
+fabhttp.6D varnish scale=5
+fabhttp.6C varnish scale=4
+fabhttp.6B varnish scale=3
+fabhttp.6A varnish scale=2
+fabhttp.5Z varnish scale=1
+
+fabhttp.5D cherokee scale=10
+fabhttp.5C cherokee scale=
+fabhttp.5B cherokee scale=
+fabhttp.5A cherokee scale=7
+fabhttp.4Z cherokee scale=6
+fabhttp.4Y cherokee scale=5
+fabhttp.4X cherokee scale=4
+fabhttp.4W cherokee scale=3
+fabhttp.4V cherokee scale=2
+fabhttp.4U cherokee scale=1
+
+fabhttp.4T nginx scale=10
+fabhttp.4S nginx scale=9
+fabhttp.4R nginx scale=8
+fabhttp.4Q nginx scale=7
+fabhttp.4P nginx scale=6
+fabhttp.4O nginx scale=5
+fabhttp.4N nginx scale=4
+fabhttp.4M nginx scale=3
+fabhttp.4L nginx scale=2
+fabhttp.4K nginx scale=1
+
+fabhttp.4J lighttpd scale=10
+fabhttp.4I lighttpd scale=9
+fabhttp.4H lighttpd scale=8
+fabhttp.4G lighttpd scale=7
+fabhttp.4F lighttpd scale=6
+fabhttp.4E lighttpd scale=5
+fabhttp.4D lighttpd scale=4
+fabhttp.4C lighttpd scale=3
+fabhttp.4B lighttpd scale=2
+fabhttp.4A lighttpd scale=1
+
+fabhttp.3Z gwan scale=10
+fabhttp.3Y gwan scale=9
+fabhttp.3X gwan scale=8
+fabhttp.3W gwan scale=7
+fabhttp.3V gwan scale=6
+fabhttp.3U gwan scale=5
+fabhttp.3T gwan scale=4
+fabhttp.3S gwan scale=3
+fabhttp.3R gwan scale=2
+fabhttp.3Q gwan scale=1
+
+fabhttp.3P apache2-worker scale=10
+fabhttp.3O apache2-worker scale=9
+fabhttp.3N apache2-worker scale=8
+fabhttp.3M apache2-worker scale=7
+fabhttp.3L apache2-worker scale=6
+fabhttp.3K apache2-worker scale=5
+fabhttp.3J apache2-worker scale=4
+fabhttp.3I apache2-worker scale=3
+fabhttp.3H apache2-worker scale=2
+fabhttp.3G apache2-worker scale=1
+
+fabhttp.3F apache2-event scale=10
+fabhttp.3E apache2-event scale=9
+fabhttp.3D apache2-event scale=8
+fabhttp.3C apache2-event scale=7
+fabhttp.3B apache2-event scale=6
+fabhttp.3A apache2-event scale=5
+fabhttp.2Z apache2-event scale=4
+fabhttp.2Y apache2-event scale=3
+fabhttp.2X apache2-event scale=2
+fabhttp.2W apache2-event scale=1
+
+fabhttp.2V heliod scale=10
+fabhttp.2U heliod scale=9
+fabhttp.2T heliod scale=8
+fabhttp.2S heliod scale=7
+fabhttp.2R heliod scale=6
+fabhttp.2Q heliod scale=5
+fabhttp.2P heliod scale=4
+fabhttp.2O heliod scale=3
+fabhttp.2N heliod scale=2
+fabhttp.2M heliod scale=1

@@ -1,0 +1,7 @@
+
+This repository contains files related to my web server performance tests.
+
+The 'benchmark' directory contains faban benchmark drivers used to run
+the tests.
+
+The 'data' directory contains results from test runs.

@@ -1,0 +1,24 @@
+
+Each directory here contains one faban driver to run some performance tests.
+
+To run these, follow these steps:
+
+1. Download faban from http://faban.org/
+
+2. Untar faban into $HOME/faban
+
+3. Start faban with $HOME/faban/master/bin/startup.sh
+
+4. Connect to the faban web UI to check it is working (startup.sh will
+print the URL to use).
+
+5. cd to the desired driver directory (e.g. randomfiles)
+
+6. Run "ant clean compile deploy"
+
+7. You should now be able to run the benchmark from the faban web UI.
+
+Refer to faban documentation for more help on how to use it:
+http://faban.org/1.0/docs/index.html
+
+Also check the README in the driver directory for driver-specific info.
